@@ -10,13 +10,13 @@ We use the Beidian dataset from the [SHGCN](https://github.com/ziruizhu/SHGCN/tr
 
 The following steps use the Beidian dataset as an example.
 
-1. **Identify relevant users and items**
+(1) **Identify relevant users and items**
    
    Run the following command to perform matrix factorization and identify the most relevant user IDs and item IDs for each hyperedge:
    ```bash
    python construct_data/MF.py
    ```
-3. **Construct the dataset**
+(2) **Construct the dataset**
    
    Run the following command to construct the datasets for training and testing:
    ```bash
