@@ -34,3 +34,7 @@ python run_main.py
 ### 4. Best Model
 
 The best model trained on the Beidian dataset is available in [Releases](https://github.com/Stefanie927/HOUR/releases/tag/v1.0).
+
+### Note
+
+For the Beibei and Beidian datasets, to ensure a fair comparison, we strictly follow the evaluation protocol of [SHGCN](https://github.com/ziruizhu/SHGCN/blob/master/utility/evaluate_one.py) by randomly sampling 100 items for each record in the test set.
